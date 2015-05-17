@@ -33,9 +33,6 @@ release:
 	make build
 	npm publish dist
 
-example:
-	node example/server
-
 clean:
 	@rm -rf dist
 
