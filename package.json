@@ -1,0 +1,41 @@
+{
+  "name": "reword",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A simple translator.",
+  "main": "src/reword.js",
+  "scripts": {
+    "start": "make example",
+    "test": "make test",
+    "test:watch": "make test-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vigetlabs/reword.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "~5",
+    "babel-loader": "~5",
+    "babel-runtime": "~5",
+    "chai": "~2",
+    "istanbul": "~0.3",
+    "istanbul-instrumenter-loader": "~0.1",
+    "karma": "~0.12",
+    "karma-chrome-launcher": "~0.1",
+    "karma-cli": "~0.0",
+    "karma-coverage": "~0.3",
+    "karma-mocha": "~0.1",
+    "karma-sinon-chai": "~0.3",
+    "karma-sourcemap-loader": "^0.3.4",
+    "karma-spec-reporter": "*",
+    "karma-webpack": "~1",
+    "mocha": "~2.2",
+    "page": "~1.6",
+    "source-map-loader": "~0.1",
+    "webpack": "~1",
+    "webpack-dev-server": "~1"
+  }
+}
