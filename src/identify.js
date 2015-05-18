@@ -1,7 +1,11 @@
-export const isObject = function isObject(obj) {
-  return Object.prototype.toString.call(obj) === '[object Object]'
-}
+module.exports = {
 
-export const isFunction = function isFunction(fn) {
-  return typeof fn === 'function'
+  isObject(obj) {
+    return Object.prototype.toString.call(obj) === '[object Object]'
+  },
+
+  isFunction(fn) {
+    return typeof fn === 'function'
+  }
+
 }

@@ -1,5 +1,5 @@
-import reword       from '../reword'
-import translations from './fixtures/translations'
+const reword       = require('../reword')
+const translations = require('./fixtures/translations')
 
 let t = reword(translations)
 

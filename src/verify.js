@@ -4,7 +4,7 @@
  *  values are Strings, otherwise returns false.
  */
 
-export default function verify(translations) {
+module.exports = function verify(translations) {
   for (let key in translations) {
     if (typeof translations[key] !== 'string') {
       return false

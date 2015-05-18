@@ -1,5 +1,5 @@
-import { isObject, isFunction } from './identify'
-import verify from './verify'
+const { isObject, isFunction } = require('./identify')
+const verify = require('./verify')
 
 /**
  * Creates a translator for a given map.
@@ -7,7 +7,7 @@ import verify from './verify'
  * @param {Function} notFound
  * @return {Function} reword
  */
-export default (translations, /* optional */ notFound) => {
+module.exports = (translations, /* optional */ notFound) => {
   if(!isObject(translations))
     throw new TypeError(`Reword expects an object as its first argument.`)
 

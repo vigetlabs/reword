@@ -1,4 +1,4 @@
-import * as identify from '../identify'
+const identify = require('../identify')
 
 describe('identify', function() {
 
