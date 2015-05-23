@@ -1,4 +1,9 @@
 export default {
+  1: "one",
   foo: "bar",
-  1: "one"
+  baz: {
+    qux: {
+      foo: "lul"
+    }
+  }
 }
