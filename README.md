@@ -3,6 +3,8 @@ Reword
 
 ---
 
+[![Circle CI](https://circleci.com/gh/vigetlabs/reword.svg?style=svg&circle-token=99cae8a958a0ac25b1a0e01ba564ee0838ce1bbc)](https://circleci.com/gh/vigetlabs/reword)
+
 A tiny translator. The use case is simple: you have known and finite list of abbreviated/encoded strings and you need to map them to other (perhaps human-readable) strings.
 
 Supports nested translations and a few different syntax variations for retrieving entries.
