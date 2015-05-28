@@ -1,6 +1,6 @@
 {
   "name": "reword",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": true,
   "description": "A simple translator.",
   "main": "src/reword.js",
@@ -15,8 +15,7 @@
     "url": "git://github.com/vigetlabs/reword.git"
   },
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "~5",
     "babel-loader": "~5",
