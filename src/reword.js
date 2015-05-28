@@ -4,7 +4,7 @@ const { isObject, isFunction } = require('./identify')
  * Creates a translator for a given map.
  * @param {Object} translations
  * @param {Function} notFound
- * @return {Function} reword
+ * @return {Function} translate
  */
 module.exports = function reword(translations, /* optional */ notFound) {
 
